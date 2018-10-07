@@ -76,9 +76,9 @@ WSGI_APPLICATION = 'webproject.wsgi.application'
 DATABASES = {
     'default': {
 	'ENGINE': 'django.db.backends.postgresql_psycopg2',
-	'NAME': 'devopspy',
-	'USER': 'devopspy',
-	'PASSWORD': 'devopspy',
+	'NAME': 'userdev',
+	'USER': 'userdev',
+	'PASSWORD': 'userdev',
 	'HOST': 'postgres',  # name in the docker-compose.yml
 	'PORT': 5432,
     }
