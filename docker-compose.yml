@@ -22,9 +22,9 @@ services:
             - "5432"
         environment:   # will be used by the init script
             LC_ALL: C.UTF-8
-            POSTGRES_USER: devopspy
-            POSTGRES_PASSWORD: devopspy
-            POSTGRES_DB: devopspy
+            POSTGRES_USER: userdev
+            POSTGRES_PASSWORD: userdev
+            POSTGRES_DB: userdev
         volumes:
             - pgdata:/var/lib/postgresql/data/  # persist container's db data to local pgdata/ (mounted)
 
